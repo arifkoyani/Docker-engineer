@@ -1,0 +1,6 @@
+services:
+  myapp:
+    container_name: blue-gate
+    build: .
+    ports:
+      - "3000:3000"
